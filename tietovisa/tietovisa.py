@@ -11,7 +11,7 @@ def visaile(kysymykset):
             print("väärin meni =(")
         print()
 
-    print("Sait {} pistettä".format(pisteet))
+    print("Sait {}/{} pistettä".format(pisteet, len(kysymykset)))
 
 if __name__ == "__main__":
     kysymykset = [
