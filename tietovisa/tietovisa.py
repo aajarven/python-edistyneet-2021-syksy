@@ -1,13 +1,17 @@
 def visaile(kysymykset):
+    pisteet = 0
+
     for kysymys in kysymykset:
         print(kysymys["kysymys"])
         vastaus = input()
         if vastaus == kysymys["vastaus"]:
             print("oikein meni!")
+            pisteet += 1
         else:
             print("väärin meni =(")
         print()
 
+    print("Sait {} pistettä".format(pisteet))
 
 if __name__ == "__main__":
     kysymykset = [
