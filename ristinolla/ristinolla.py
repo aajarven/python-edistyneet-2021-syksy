@@ -1,4 +1,4 @@
-def tulosta_ruudukko():
+def tulosta_tyhja_ruudukko():
     print(" | | ")
     print("-+-+-")
     print(" | | ")
@@ -6,4 +6,4 @@ def tulosta_ruudukko():
     print(" | | ")
 
 if __name__ == "__main__":
-    tulosta_ruudukko()
+    tulosta_tyhja_ruudukko()
