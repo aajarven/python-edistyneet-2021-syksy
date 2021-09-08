@@ -14,9 +14,11 @@ def tulosta_ruudukko(pelitilanne):
 
 
 if __name__ == "__main__":
+    print("tulosta_tyhja_ruudukko():")
     tulosta_tyhja_ruudukko()
     print()
 
+    print("tyhjä ruudukko tulosta_ruudukko-funktion luomana:")
     pelitilanne = [
         [" ", " ", " "],
         [" ", " ", " "],
@@ -25,6 +27,7 @@ if __name__ == "__main__":
     tulosta_ruudukko(pelitilanne)
     print()
 
+    print("pelitilanne tulosta_ruudukko-funktion luomana:")
     pelitilanne = [
         ["X", " ", "O"],
         [" ", "X", " "],
